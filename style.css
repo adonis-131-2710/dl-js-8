@@ -5,7 +5,11 @@ body {
     font-family: "Lexend";
     overflow-x: hidden;
 }
- 
+
+body.show-nav {
+    overflow: hidden;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -22,7 +26,6 @@ body {
 .container.show-nav {
     transform: rotate(-20deg);
     transition: transform 0.5s linear;
-    overflow-y: hidden;
 }
 
 .box-cicrle {
@@ -138,6 +141,7 @@ nav ul li + li + li {
     transform: translateX(-200%);
 
 } 
+
 
 
 
