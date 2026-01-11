@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Lexend";
-    overflow-x: hidden;
+    overflow: hidden;
 }
  
 .container {
@@ -135,4 +135,5 @@ nav ul li + li {
 nav ul li + li + li {
     margin-left: 30px;
     transform: translateX(-200%);
+
 } 
